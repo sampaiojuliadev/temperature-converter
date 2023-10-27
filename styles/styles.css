@@ -1,0 +1,18 @@
+body {
+    background-image: url(../assets/nature-horizon-silhouette-cloud-sky-sunrise-533662-pxhere.com.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+label{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+::placeholder{
+    color: cornflowerblue;
+    font-family: monospace;
+}
