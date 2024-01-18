@@ -7,44 +7,55 @@
     <title>Temperature Converter</title>
 </head>
 <body>
+    <header>
+        <h1>Temperature Converter</h1>
+        <div class="made-by">
+            <h3>Made by Julia Sampaio</h3>
+        </div>
+    </header>
     <div class="card">
-        <h1>Temperature converter</h1>
-        <div class="temperature-container">
-            <label>Celsius:</label>
-            <input
-                type="number"
-                id="celsius"
-                name="celsius"
-                class="input"
-                placeholder="Enter a temperature"
-                onchange="convertTemperature(event)"
-            />
-        </div>
-        <div class="temperature-container">
-            <label>Fahrenheit:</label>
-            <input
-                type="number"
-                id="fahrenheit"
-                name="fahrenheit"
-                class="input"
-                placeholder="Enter a temperature"
-                onchange="convertTemperature(event)"
-            />
-        </div>
-        <div class="temperature-container">
-            <label>Kelvin:</label>
-            <input
-                type="number"
-                id="kelvin"
-                name="kelvin"
-                class="input"
-                placeholder="Enter a temperature"
-                onchange="convertTemperature(event)"
-            />
-        </div>
-    </div>
-    <div id="mainbox">
-        
+        <h2>Celsius</h2>
+            <div class="container1">
+                <div class="temperature-container">
+                    <label></label>
+                    <input
+                        type="number"
+                        id="celsius"
+                        name="celsius"
+                        class="input"
+                        placeholder="Enter a temperature"
+                        onchange="convertTemperature(event)"
+                />
+                </div>
+            </div>
+        <h2>Fahrenheit</h2>
+            <div class="container2">
+                <div class="temperature-container">
+                    <label></label>
+                    <input
+                        type="number"
+                        id="fahrenheit"
+                        name="fahrenheit"
+                        class="input"
+                        placeholder="Enter a temperature"
+                        onchange="convertTemperature(event)"
+                    />
+                </div>
+            </div>
+        <h2>Kelvin</h2>
+            <div class="container3"></div>
+                <div class="temperature-container">
+                    <label></label>
+                    <input
+                        type="number"
+                        id="kelvin"
+                        name="kelvin"
+                        class="input"
+                        placeholder="Enter a temperature"
+                        onchange="convertTemperature(event)"
+                    />
+                </div>
+            </div>
     </div>
     <script src="index.js"></script>   
 </body>

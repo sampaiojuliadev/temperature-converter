@@ -1,18 +1,52 @@
+@font-face {
+    font-family: 'ArchitectsDaughter';
+    src: url(../fonts/ArchitectsDaughter.ttf);
+}
+@font-face {
+    font-family: 'dogica';
+    src: url(../fonts/dogica.otf);
+}
+@font-face {
+    font-family: 'glitch';
+    src: url(../fonts/Doctor\ Glitch.otf);
+}
 body {
-    background-image: url(../assets/nature-horizon-silhouette-cloud-sky-sunrise-533662-pxhere.com.jpg);
+    background-color: #D9D9D9;
     background-size: cover;
     background-repeat: no-repeat;
 }
 label{
-    color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.07em 0em #FA00FF, -0.07em -0em #00E8FF;
+    color: #191919;
+    font-family: 'dogica';
+    text-align: center;
 }
 h1{
-    color: aliceblue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: xx-large;
+    text-shadow: 0.07em 0em #FA00FF, -0.07em -0em #00E8FF;
+    color: #000000;
+    font-family:'glitch';
+    font-size: 3.7em;
+    text-align: center;
+    
 }
 ::placeholder{
-    color: cornflowerblue;
-    font-family: monospace;
+    opacity: 0.5;
+    text-shadow: 0.05em 0em #FA00FF, -0.05em -0em #00E8FF;
+    color: #191919;
+    font-family: 'dogica';
+    text-align: center;
+}
+h3{
+    font-size: small;
+    font-family: 'ArchitectsDaughter';
+    text-align: center;
+}
+h2{
+    text-shadow: 0.07em 0em #FA00FF, -0.07em -0em #00E8FF;
+    color: #191919;
+    font-family: 'dogica';
+    text-align: center;
+}
+.container1 {
+    
 }
